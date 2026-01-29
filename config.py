@@ -29,11 +29,11 @@ class SystemConfig:
     USE_GPU = True
     
     # حجم batch للمعالجة
-    BATCH_SIZE = 1  # لو عندك GPU قوي، زوّده لـ 2 أو 4
+    BATCH_SIZE = 2  # لو عندك GPU قوي، زوّده لـ 2 أو 4
 
     # ========== OCR SETTINGS ==========
-    OCR_STABLE_FRAMES = 3  # قلّلته من 5 للسرعة
-    OCR_VOTING_WINDOW = 8  # قلّلته من 10
+    OCR_STABLE_FRAMES = 5  # قلّلته من 5 للسرعة
+    OCR_VOTING_WINDOW = 10  # قلّلته من 10
     OCR_MIN_W = 40  # قلّلته من 50
     OCR_MIN_H = 15  # قلّلته من 20
 
@@ -41,7 +41,7 @@ class SystemConfig:
     SPEED_FPS = 24.0        # FPS الفيديو (مهم للدقة!)
     SPEED_PPM = 83       # Pixels Per Meter (معايرة من الفيديو)
     SPEED_MAX = 200.0       # أقصى سرعة منطقية km/h
-    SPEED_LIMIT = 80.0      # حد السرعة km/h
+    SPEED_LIMIT = 60.0      # حد السرعة km/h
     
     # حساب السرعة كل N frames
     SPEED_CALC_INTERVAL = 3  # يحسب السرعة كل 3 frames
