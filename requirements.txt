@@ -2,7 +2,6 @@ fastapi
 uvicorn
 opencv-python
 paddleocr
-ultralytics
-sqlite3
+ultralytics==8.4.8  # تأكد من تحديد الإصدار المتوافق مع Python 3.13
 python-multipart
 gunicorn
