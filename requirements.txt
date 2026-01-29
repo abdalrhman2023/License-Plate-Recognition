@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+opencv-python
+paddleocr
+ultralytics
+sqlite3
+python-multipart
+gunicorn
